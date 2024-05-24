@@ -150,6 +150,10 @@ form button:hover {
     color: aliceblue;
     font-size: 30px;
 }
+.lead{
+    color: aliceblue;
+    font-size: 18px;
+}
 
 footer {
     background-color: #000;
