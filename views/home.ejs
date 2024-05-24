@@ -18,13 +18,20 @@
         <a href="/community">Tech Community</a>
     </nav>
     <div class="main-content">
-        <div class="container">
+        <div class="container1">
             <div class="">
                 <h2 class="landing2">Welcome to TechAlpha Club, <br> Hello <%= name %></h2>
                     <p class="lead">You are now part of a vibrant community dedicated to tech innovation and learning. <br> Explore our courses, join community events, and collaborate with fellow tech enthusiasts. We're excited to see you grow and succeed!</p>
-                
+                    <div class="button-group mt-4">
+                        <a href="/techcommunity" class="btn btn-primary btn-lg me-2">Tech Community</a>
+                        <a href="/courses" class="btn btn-secondary btn-lg me-2">Courses</a>
+                        <a href="/about" class="btn btn-info btn-lg">About Us</a>
+                    </div>
             </div>
         </div>
     </div>
+    <footer class="text-center text-white mt-auto py-3 bg-dark">
+        <p>&copy; <%= new Date().getFullYear() %> TechAlpha Hub</p>
+    </footer>
 </body>
 </html>
